@@ -1,0 +1,16 @@
+C:\Users\ferun\RiderProjects\C_sharp\C_sharp_Day00-0\src\d00_ex00\d_00\bin\Debug\net5.0\d_00.exe
+C:\Users\ferun\RiderProjects\C_sharp\C_sharp_Day00-0\src\d00_ex00\d_00\bin\Debug\net5.0\d_00.deps.json
+C:\Users\ferun\RiderProjects\C_sharp\C_sharp_Day00-0\src\d00_ex00\d_00\bin\Debug\net5.0\d_00.runtimeconfig.json
+C:\Users\ferun\RiderProjects\C_sharp\C_sharp_Day00-0\src\d00_ex00\d_00\bin\Debug\net5.0\d_00.runtimeconfig.dev.json
+C:\Users\ferun\RiderProjects\C_sharp\C_sharp_Day00-0\src\d00_ex00\d_00\bin\Debug\net5.0\d_00.dll
+C:\Users\ferun\RiderProjects\C_sharp\C_sharp_Day00-0\src\d00_ex00\d_00\bin\Debug\net5.0\ref\d_00.dll
+C:\Users\ferun\RiderProjects\C_sharp\C_sharp_Day00-0\src\d00_ex00\d_00\bin\Debug\net5.0\d_00.pdb
+C:\Users\ferun\RiderProjects\C_sharp\C_sharp_Day00-0\src\d00_ex00\d_00\obj\Debug\net5.0\d_00.csproj.AssemblyReference.cache
+C:\Users\ferun\RiderProjects\C_sharp\C_sharp_Day00-0\src\d00_ex00\d_00\obj\Debug\net5.0\d_00.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ferun\RiderProjects\C_sharp\C_sharp_Day00-0\src\d00_ex00\d_00\obj\Debug\net5.0\d_00.AssemblyInfoInputs.cache
+C:\Users\ferun\RiderProjects\C_sharp\C_sharp_Day00-0\src\d00_ex00\d_00\obj\Debug\net5.0\d_00.AssemblyInfo.cs
+C:\Users\ferun\RiderProjects\C_sharp\C_sharp_Day00-0\src\d00_ex00\d_00\obj\Debug\net5.0\d_00.csproj.CoreCompileInputs.cache
+C:\Users\ferun\RiderProjects\C_sharp\C_sharp_Day00-0\src\d00_ex00\d_00\obj\Debug\net5.0\d_00.dll
+C:\Users\ferun\RiderProjects\C_sharp\C_sharp_Day00-0\src\d00_ex00\d_00\obj\Debug\net5.0\ref\d_00.dll
+C:\Users\ferun\RiderProjects\C_sharp\C_sharp_Day00-0\src\d00_ex00\d_00\obj\Debug\net5.0\d_00.pdb
+C:\Users\ferun\RiderProjects\C_sharp\C_sharp_Day00-0\src\d00_ex00\d_00\obj\Debug\net5.0\d_00.genruntimeconfig.cache
