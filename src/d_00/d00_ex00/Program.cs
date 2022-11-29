@@ -6,10 +6,10 @@ double sum;
 double rate;
 int term;
 
-if (!double.TryParse(args[0], out sum) || !double.TryParse(args[1], out rate) || !int.TryParse(args[2], out term)
+if ( args.Length < 3 ||!double.TryParse(args[0], out sum) || !double.TryParse(args[1], out rate) || !int.TryParse(args[2], out term)
     || sum <= 0 || term <= 0)
 {
-    Console.WriteLine("Something went wrong. Check your input and retry.");
+    Console.Error.WriteLine("Something went wrong. Check your input and retry.");
     return;
 }
 
@@ -31,8 +31,8 @@ for (int currentMonth = 1; currentMonth <= term; currentMonth++)
     }
     else
     {
-        monthlyPayment = totalDebtBalance;
-        principalDebit = monthlyPayment - monthlyPaymentInterest;
+        monthlyPayment = totalDebtBalance + monthlyPaymentInterest;
+        principalDebit = totalDebtBalance;
         totalDebtBalance = 0;
     }
     Console.WriteLine($"{currentMonth}\t" +
