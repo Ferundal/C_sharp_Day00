@@ -13,7 +13,9 @@ if ( args.Length < 3 ||!double.TryParse(args[0], out sum) || !double.TryParse(ar
     return;
 }
 
-var dateTime = DateTime.Now;
+//var dateTime = DateTime.Now;
+var dateTime = new DateTime(2021, 5, 1);
+
 var cultureInfo = new CultureInfo("en-GB");
 var interestRate = rate / 12 / 100;
 var monthlyPayment = sum * interestRate * Math.Pow(1 + interestRate, term) / (Math.Pow(1 + interestRate, term) - 1);
@@ -36,9 +38,10 @@ for (int currentMonth = 1; currentMonth <= term; currentMonth++)
         totalDebtBalance = 0;
     }
     Console.WriteLine($"{currentMonth}\t" +
-                      $"{dateTime.ToString("MM/dd/yyyy",cultureInfo)}\t" +
+                      $"{currentDateTime.ToString("MM/dd/yyyy",cultureInfo)}\t" +
                       $"{monthlyPayment, -10:N2}\t" +
                       $"{principalDebit, -10:N2}\t" +
                       $"{monthlyPaymentInterest, -10:N2}" +
                       $"{totalDebtBalance, -10:N2}");
+    dateTime = dateTime.AddMonths(1);
 }
